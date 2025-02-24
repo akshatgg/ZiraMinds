@@ -4,11 +4,11 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),
-    tailwindcss()
+    tailwindcss(),
   ],
-  server:{
-    watch: {
-      usePolling: true, // Disable polling unless necessary
-    },
-  }
+  server: {
+     watch: {
+       usePolling: true,
+     },
+  },
 })
