@@ -1,1 +1,10 @@
 @import "tailwindcss";
+div {
+    scroll-margin-top: 60px; /* Adjust if Navbar is fixed */
+  }
+  
+  section {
+    min-height: 100vh; /* Full screen height */
+    padding: 40px;
+  }
+  
