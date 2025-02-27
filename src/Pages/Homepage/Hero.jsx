@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-[#200A18] to-[#091F21] text-white text-center py-20 px-5">
       <h1 className="text-3xl md:text-6xl font-bold">
-        AI POWER SOLUTION FOR EVERYONE
+        AI POWER SOLUTIONS FOR EVERYONE
         <br></br>
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
           <Typewriter
