@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-black to-gray-800 text-white py-10 px-5 md:px-20">
+    <footer className="bg-gradient-to-r from-[#200A18] to-[#091F21] text-white py-10 px-5 md:px-20">
       <div className="flex flex-col md:flex-row justify-between">
         <div>
           <h1 className="text-2xl font-bold">
-            <span className="text-[#00449F]">ZiraMinds</span> AI
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">ZiraMinds AI</span>
           </h1>
           <p className="text-gray-400 mt-2">
             Making advanced AI technology accessible to everyone while ensuring privacy and security.
