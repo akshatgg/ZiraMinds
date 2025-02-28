@@ -1,15 +1,16 @@
-.Home-Page{
-position: relative;
-height: 100vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background: #0a0a0ae0;
-}
-.Home-Page::before{
-    background: #000;
-    background: url('../assets/homebg.gif') no-repeat center center fixed;
+.Home-Page {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0a0a0ae0;
+    overflow: hidden; /* Ensure the background doesn't overflow */
+  }
+  
+  .Home-Page::before {
+    background: url('../assets/homebg.gif') no-repeat center center;
     background-size: cover;
     z-index: -1;
     content: '';
@@ -18,4 +19,32 @@ background: #0a0a0ae0;
     left: 0;
     width: 100%;
     height: 100%;
-}
+  }
+  
+  @media (min-width: 1024px) {
+    .Home-Page::before {
+      height: 100vh;
+      background-size: 200%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .Home-Page::before {
+      height: 100vh;
+      background-size: 200%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Home-Page::before {
+      height: 100vh;
+      background-size: 300%;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .Home-Page::before {
+      height: 100vh;
+      background-size: 400%;
+    }
+  }
